@@ -134,6 +134,28 @@ spl-token accounts
 spl-token supply G34Jzvq5B5A3UCvmAZ79BQ8Typ4DZMGWGjkirs4moUCd
 ```
 
+## 🌊 Raydium Liquidity Pool
+
+After creating the XDOGE SPL token, I provisioned liquidity on Raydium Devnet by creating a SOL/XDOGE liquidity pool.
+
+### Pool Details
+
+- Pair: SOL / XDOGE
+- Platform: Raydium Devnet
+- Pool Type: Standard AMM Pool
+
+### Learning Outcomes
+
+- Understanding Automated Market Makers (AMMs)
+- Liquidity Pool Creation
+- Token Pair Configuration
+- Initial Liquidity Provisioning
+- Token Trading Infrastructure on Solana
+
+### Screenshot
+
+![Raydium Liquidity Pool](screenshots/liquidity-pool.png)
+
 ## 🎯 Learning Outcome
 
 This project provided practical experience with:
