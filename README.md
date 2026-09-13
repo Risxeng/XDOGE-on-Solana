@@ -84,6 +84,56 @@ https://explorer.solana.com/address/G34Jzvq5B5A3UCvmAZ79BQ8Typ4DZMGWGjkirs4moUCd
 
 ---
 
+## 💻 Commands Used
+
+### Create Wallet
+
+```bash
+solana-keygen new --outfile my-memecoin-wallet.json
+```
+
+### Configure Wallet
+
+```bash
+solana config set --keypair my-memecoin-wallet.json
+```
+
+### Check Balance
+
+```bash
+solana balance
+```
+
+### Create SPL Token
+
+```bash
+spl-token create-token
+```
+
+### Create Token Account
+
+```bash
+spl-token create-account G34Jzvq5B5A3UCvmAZ79BQ8Typ4DZMGWGjkirs4moUCd
+```
+
+### Mint Tokens
+
+```bash
+spl-token mint G34Jzvq5B5A3UCvmAZ79BQ8Typ4DZMGWGjkirs4moUCd 1000
+```
+
+### View Token Accounts
+
+```bash
+spl-token accounts
+```
+
+### Check Token Supply
+
+```bash
+spl-token supply G34Jzvq5B5A3UCvmAZ79BQ8Typ4DZMGWGjkirs4moUCd
+```
+
 ## 🎯 Learning Outcome
 
 This project provided practical experience with:
@@ -101,3 +151,4 @@ This project provided practical experience with:
 - Learn Program Derived Addresses (PDAs)
 - Build a custom Solana program
 - Create a complete Solana dApp around the token
+
